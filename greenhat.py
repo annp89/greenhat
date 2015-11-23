@@ -6,7 +6,6 @@ from random import randint
 from time import sleep
 import sys
 import subprocess
-import os
 
 # returns a date string for the date that is N days before STARTDATE
 def get_date_string(n, startdate):
