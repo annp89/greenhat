@@ -7,11 +7,13 @@ from time import sleep
 import sys
 import subprocess
 
+
 # returns a date string for the date that is N days before STARTDATE
 def get_date_string(n, startdate):
 	d = startdate - timedelta(days=n)
 	rtn = d.strftime("%a %b %d %X %Y %z -0400")
 	return rtn
+
 
 # main app
 def main(argv):
